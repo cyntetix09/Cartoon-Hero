@@ -1,19 +1,73 @@
 body{
 	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	background-image: url(bodybg.jpg);
+	background-position: center;
+	font-size: 20px;
 }
 header{
-	background-color: gold;
+	background-image: url(headerbg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	font-size: 50px
 }
 header h1{
-	color: white;
-	font-family: 'Bungee';
-
+	color: blue;
 }
 header img{
 	border-radius: 170px;
 	width: 300px;
 	border: 20px solid white;
+}
+h1, h2{
+	font-family: 'Squada One', cursive;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+main img{
+	max-width: 100%;
+}
+h2{
+	font-size: 35px;
+	color: deepskyblue;
+	margin: 40px 0 10px;
+}
+a{
+	color: deepskyblue;
+
+}
+a:hover{
+	color: yellow;
+	background-color:deepskyblue;
+}
+footer{
+	background-color: deepskyblue;
+	text-align: center;
+	color: black;
+	padding: 50px;
+	margin: 0;
+}
+footer p{
+	margin: 0;
+}
+footer a{
+	color:white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+	color: gold;
+}
+p.caption{
+	color: darkgray;
+	font-style: italic;
+	margin-top: 0;
+	text-align: center;
 }
