@@ -6,25 +6,27 @@ body{
 	font-size: 20px;
 }
 header{
-	background-image: url(headerbg.jpg);
+	background-image: url(images.png);
 	background-position: center;
-	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	font-size: 50px
+	font-size: 50px;
 }
 header h1{
-	color: blue;
+	color: aqua;
+	text-shadow: 5px 5px 10px blue, 5px 5px 10px blue;
 }
 header img{
 	border-radius: 170px;
 	width: 300px;
-	border: 20px solid white;
+	border: 20px solid aqua;
 }
 h1, h2{
 	font-family: 'Squada One', cursive;
 }
+
+/*header styles*/
 main{
 	max-width: 800px;
 	margin: 0 auto;
@@ -40,7 +42,7 @@ h2{
 	margin: 40px 0 10px;
 }
 a{
-	color: deepskyblue;
+	color: black;
 
 }
 a:hover{
@@ -66,8 +68,9 @@ footer a:hover{
 	color: gold;
 }
 p.caption{
-	color: darkgray;
+	color: black;
 	font-style: italic;
 	margin-top: 0;
 	text-align: center;
+	opacity: .5;
 }
