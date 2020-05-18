@@ -65,7 +65,7 @@ footer a{
 footer a:hover{
 	opacity: .5;
 	background-color: transparent;
-	color: gold;
+	color: red;
 }
 p.caption{
 	color: black;
